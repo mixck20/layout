@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    width: 1400px; 
+    height: 600px; 
+    border: 5px solid #228B22;
+    background-color: #aaffb1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    border: 5px solid #0000FF;
+    background-color: #ADD8E6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    border: 5px;
+    background-color: #aaffb1;
+    padding: 0px;
+}
+
+.middle .big-box {
+    height: 230px;
+    border: 5px solid #af0000;
+    background-color: #FFC0CB;
+    padding: 10px;
+    width: 635px;
+}
+
+.middle .side-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 673px;
+}
+
+.middle .side-box .small-box {
+    height: 95px;
+    border: 5px solid #af0000;
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border: 5px solid #0000FF;
+    background-color: #ADD8E6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom .box:nth-child(1),
+.bottom .box:nth-child(4) {
+    height: 60px;
+    border: 5px solid #734f96;
+    background-color: #E6E6FA;
+    padding: 10px;
+    width: 410px;
+}
+
+.bottom .box:nth-child(2),
+.bottom .box:nth-child(3) {
+    height: 60px;
+    border: 5px solid #FFA07A;
+    background-color: #F5DEB3; 
+    padding: 10px;
+    width: 170px;
+}
+
+.box {
+    border: 5px solid #FFA07A;
+    background-color: #F5DEB3;
+    padding: 5px;
+    width: 440px;
+    height: 70px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    border: 5px solid #FFA07A;
+    background-color: #F5DEB3;
+    padding: 10px;
+    height: 60px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container1 .small-box {
+    border: 5px solid red;
+    background-color: #FFC0CB;
+    padding: 0px;
+    height: 60px;
+    width: 150px;
+
+}
